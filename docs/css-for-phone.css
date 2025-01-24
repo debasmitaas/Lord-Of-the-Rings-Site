@@ -1,0 +1,67 @@
+
+/* NAVIGATION */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li {
+    font-size: 0.9rem;
+}
+/* NAVIGATION */
+/* -----------------------------------------------------------------------------------------------------*/
+/* HOMEEE */
+#home{
+   height: 170px;
+}
+#home p{
+    padding: 22px 26px;
+    font-size: 1.1rem;
+
+}
+
+/* HOMEEE */
+/* ---------------------------------------------------------------------------------------------------- */
+/* CHARACTERS */
+    .characters{
+    padding: 30px;
+    margin-top: 20px;
+    height: 339px;
+    width: 288px;
+    
+    }
+
+
+/* CHARACTERS */
+/* ------------------------------------------------------------------------------------------------- */
+/* FORM */
+
+/* FORM */
+/* ---------------------------------------------------------------------------------------------------- */
+/* SOCIAL MEDIA */
+#socialmedia{
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+#icons img{
+    height: 33px;
+    width: 33px;
+}
+.image{
+    padding: 15px;
+}   
+.char-header{
+    font-size: medium;
+}
+/* SOCIAL MEDIA */
+/* utility classes */
+.btn{
+    font-size: 13px;
+    padding-bottom:13px;
+    margin: 13px;
+}
+.primaryheading{
+    font-size: 1.3rem;
+}
+#Visit{
+    padding: 11px 26px;
+}
+/* utility classes */

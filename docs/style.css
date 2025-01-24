@@ -1,0 +1,427 @@
+/* css :reset */
+ 
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    /* css variables */
+    --navibar-height: 60px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#logo img {
+    height: 95px;
+    width: 95px;
+    margin: 1px -27px;
+    padding: 3px 7px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    padding-left: 8px;
+    position: relative;
+    top: -84px;
+    left: 38px
+}
+
+#logo {
+    margin: 10px 34px;
+}
+
+#navbar ul {
+    display: flex;
+    padding-right: 120px;
+    font-family: "MedievalSharp", cursive;
+
+}
+
+#navbar ul li {
+    padding-left: 35px;
+    margin: 9px 30px;
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px 24px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 209, 156);
+
+}
+
+#navbar ul li a:hover {
+    display: block;
+    background-color: rgb(85, 0, 0);
+    border-radius: 10px;
+    color: bisque;
+    /* padding: 2px 13px; */
+    text-decoration: none;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body {
+    background: url('FNoDYzb-wallpapers-lord-of-the-rings.jpg') no-repeat center center/cover;
+    height: 1767px;
+    background-attachment: fixed;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-family: "Bilbo", cursive;
+    font-size: 2rem;
+    padding: 20px 100px;
+
+}
+
+#home h1 {
+    color: rgba(245, 147, 18, 255);
+    text-align: center;
+    padding-top: 300px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+}
+
+/*                       service//characters-haeder            */
+.characters {
+    font-family: "Uncial Antiqua", system-ui;
+    display: flex;
+    margin: 34px;
+    /* width: 127px; */
+}
+
+.characters img {
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+
+.characters .box {
+    padding: 30px;
+    margin-top: 20px;
+    height: 300px;
+    width: 250px;
+    margin-bottom: 40px;
+    background-color: rgb(125, 53, 1);
+    box-shadow: 9px 9px 0px rgba(245, 147, 18, 255);
+    transition: box-shadow 1s ease-in-out;
+}
+
+.characters .box:hover {
+    box-shadow: -18px -18px 9px rgba(245, 147, 18, 255);
+}
+
+.center {
+    text-align: center;
+}
+
+/* box */
+/*                          div-2                     */
+
+.anotherchars img {
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+
+.anotherchars {
+    font-family: "Uncial Antiqua", system-ui;
+    display: flex;
+    margin: 34px;
+
+}
+
+.anotherchars .newbox {
+
+    padding: 30px;
+    margin-top: 20px;
+    height: 300px;
+    width: 250px;
+    margin-bottom: 40px;
+    background-color: rgb(125, 53, 1);
+    box-shadow: 9px 9px 0px rgba(245, 147, 18, 255);
+    transition: box-shadow 1s ease-in-out;
+}
+
+.anotherchars .newbox:hover {
+    box-shadow: 18px 18px 9px rgba(245, 147, 18, 255);
+}
+
+#nbox-1 {
+    margin: 8px;
+    border-radius: 20px;
+}
+
+#nbox-2 {
+    margin: 8px;
+    border-radius: 20px;
+}
+
+#nbox-3 {
+    margin: 8px;
+    border-radius: 20px;
+}
+
+#nbox-4 {
+    margin: 8px;
+    border-radius: 20px;
+}
+
+/*                div-2                               */
+
+
+.center {
+    font-size: 1.5rem;
+    color: rgb(34, 58, 46);
+}
+
+.para {
+    text-align: center;
+    font-size: 0.75rem;
+    color: rgba(250, 202, 75, 255);
+}
+
+#box1 {
+    margin: 8px;
+    border-radius: 20px;
+}
+
+#box2 {
+    margin: 8px;
+    border-radius: 20px;
+}
+
+#box3 {
+    margin: 8px;
+    border-radius: 20px;
+}
+
+#box4 {
+    margin: 8px;
+    border-radius: 20px;
+
+}
+
+/* box */
+
+.char-header {
+    text-align: center;
+    font-size: 2.0rem;
+    margin-top: 200px;
+    color: rgba(245, 147, 18, 255);
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+
+}
+
+/* utility classes */
+.primaryheading {
+
+    font-size: 3.3rem;
+}
+
+.btn {
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 40px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    height: 80px;
+    width: 140px;
+    text-align: center;
+    justify-content: center;
+    font-family: "MedievalSharp", cursive;
+}
+
+
+/* ~~~~~~~~~~~~~FORM PART~~~~~~~~~~~~~~~~~~~ */
+.lastcredit {
+    font-family: "Pirata One", system-ui;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    padding: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* ANIMATION --------------------------------------------------- */
+#logo img:hover {
+    height: 95px;
+    width: 95px;
+    margin: 1px -27px;
+    padding: 3px 7px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* ANIMATION --------------------------------------------------------*/
+
+/* SOCIAL MEDIA , FORM PART CSS------------------------------------------------------------------- */
+#icons img {
+    height: 65px;
+    padding: 5px;
+    width: 65px;
+    margin: auto;
+}
+
+#socialmedia {
+    position: relative;
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#icons img {
+    cursor: pointer;
+
+}
+
+.image {
+    padding: 23px;
+}
+
+
+#socialheading {
+    padding: 40px 80px;
+}
+
+.signup {
+    position: relative;
+}
+
+#signupbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
+    background: url('mapbg.png') no-repeat center center/contain;
+    background-size: 118% 116%;
+}
+
+#signupbox label {
+    text-align: center;
+    justify-content: center;
+    color: rgb(34, 58, 46);
+    font-family: "Uncial Antiqua", system-ui;
+    font-size: 1.1rem;
+   
+}
+
+#signupbox input {
+    width: 120%;
+    padding: 0.5rem;
+    font-family: "Bilbo", cursive;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+#submit-button {
+    display: flex;
+    width: 55%;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 10%;
+    position: relative;
+    left: 100px;
+    font-family: "MedievalSharp", cursive;
+    background-color: rgb(235, 172, 12);
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.login button {
+    padding: 8px;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 8px;
+    font-family: "MedievalSharp", cursive;
+    font-size: 0.9rem;
+    background-color: rgba(135, 51, 51, 0.285);
+}
+
+.login {
+    padding: 15px;
+    text-align: center;
+    font-family: "Bilbo", cursive;
+    font-size: 1rem;
+}
+
+
+/* ----------------------------------------------right side of menu bar----------------------------- */
+.right img {
+
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    margin: 4px 4px;
+}
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    top: -32px;
+    left: -85px;
+}
+
+.right img:hover {
+    cursor: pointer;
+    filter: brightness(0)invert(1);
+
+}
+
+/* -----------------------------log out and account icon---------------------------------------------- */
